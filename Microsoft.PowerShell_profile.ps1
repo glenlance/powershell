@@ -22,3 +22,7 @@ function Get-GorootDir{
 	Set-location -Path C:\Users\y5039\go
 }
 Set-Alias -Name gopath -Value Get-GorootDir
+function Get-GoFraudigDir{
+	Set-location -Path C:\Users\y5039\go\src\github.com\glen\fraudig
+}
+Set-Alias -Name fraudig -Value Get-GoFraudigDir
