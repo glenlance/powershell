@@ -37,3 +37,5 @@ function Get-GoDictDir{
 	Set-location -Path D:\dicts
 }
 Set-Alias -Name dict -Value Get-GoDictDir
+
+Set-Alias -Name curl -Value Invoke-WebRequest -option AllScope
